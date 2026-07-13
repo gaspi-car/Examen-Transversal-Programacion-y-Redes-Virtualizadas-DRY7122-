@@ -1,0 +1,165 @@
+{
+    "header": {
+        "generatedOn": 1783914486999,
+        "viewKeys": {
+            "uniqueKey": [],
+            "preferenceKey": "grid-MonitorDeviceDetails"
+        },
+        "columns": [
+            {
+                "title": "Status",
+                "property": "status",
+                "display": "icon",
+                "iconProperty": "status-icon",
+                "colorProperty": "status-color",
+                "hideable": false,
+                "dataType": "string"
+            },
+            {
+                "title": "Hostname",
+                "property": "host-name",
+                "display": "iconAndText",
+                "iconProperty": "host-name-icon",
+                "hideable": false,
+                "dataType": "string"
+            },
+            {
+                "title": "System IP",
+                "property": "system-ip",
+                "dataType": "ipv4"
+            },
+            {
+                "title": "Site ID",
+                "property": "site-id",
+                "dataType": "numberStr"
+            },
+            {
+                "title": "Device Type",
+                "property": "device-type",
+                "display": "keyvalue",
+                "keyvalueProperty": "device-type",
+                "keyvalue": [
+                    {
+                        "key": "vsmart",
+                        "value": "vSmart"
+                    },
+                    {
+                        "key": "vbond",
+                        "value": "vBond"
+                    },
+                    {
+                        "key": "vmanage",
+                        "value": "vManage"
+                    },
+                    {
+                        "key": "vedge",
+                        "value": "WAN Edge"
+                    }
+                ],
+                "dataType": "string"
+            },
+            {
+                "title": "Device Model",
+                "property": "device-model",
+                "display": "keyvalue",
+                "keyvalueProperty": "device-model",
+                "dataType": "string"
+            }
+        ],
+        "fields": [
+            {
+                "property": "status",
+                "dataType": "string",
+                "display": "icon"
+            },
+            {
+                "property": "host-name",
+                "dataType": "string",
+                "display": "iconAndText"
+            },
+            {
+                "property": "system-ip",
+                "dataType": "ipv4"
+            },
+            {
+                "property": "site-id",
+                "dataType": "numberStr"
+            },
+            {
+                "property": "device-type",
+                "dataType": "string",
+                "display": "keyvalue"
+            },
+            {
+                "property": "device-model",
+                "dataType": "string",
+                "display": "keyvalue"
+            }
+        ]
+    },
+    "data": [
+        {
+            "device-model": "vmanage",
+            "device-type": "vmanage",
+            "system-ip": "10.10.1.1",
+            "host-name": "vmanage",
+            "site-id": "101",
+            "layoutLevel": 1,
+            "status": "normal"
+        },
+        {
+            "device-model": "vsmart",
+            "device-type": "vsmart",
+            "system-ip": "10.10.1.5",
+            "host-name": "vsmart",
+            "site-id": "101",
+            "layoutLevel": 2,
+            "status": "normal"
+        },
+        {
+            "device-model": "vedge-cloud",
+            "device-type": "vbond",
+            "system-ip": "10.10.1.3",
+            "host-name": "vbond",
+            "site-id": "101",
+            "layoutLevel": 3,
+            "status": "normal"
+        },
+        {
+            "device-model": "vedge-C8000V",
+            "device-type": "vedge",
+            "system-ip": "10.10.1.11",
+            "host-name": "dc-cedge01",
+            "site-id": "100",
+            "layoutLevel": 4,
+            "status": "normal"
+        },
+        {
+            "device-model": "vedge-C8000V",
+            "device-type": "vedge",
+            "system-ip": "10.10.1.13",
+            "host-name": "site1-cedge01",
+            "site-id": "1001",
+            "layoutLevel": 4,
+            "status": "normal"
+        },
+        {
+            "device-model": "vedge-C8000V",
+            "device-type": "vedge",
+            "system-ip": "10.10.1.15",
+            "host-name": "site2-cedge01",
+            "site-id": "1002",
+            "layoutLevel": 4,
+            "status": "normal"
+        },
+        {
+            "device-model": "vedge-cloud",
+            "device-type": "vedge",
+            "system-ip": "10.10.1.17",
+            "host-name": "site3-vedge01",
+            "site-id": "1003",
+            "layoutLevel": 4,
+            "status": "normal"
+        }
+    ]
+}
